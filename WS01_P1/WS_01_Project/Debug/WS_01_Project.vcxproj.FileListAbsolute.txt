@@ -1,0 +1,2 @@
+C:\Users\ramol\Desktop\OOP Vanilla Workshops\WS01\WS_01_Project\Debug\WS_01_Project.exe
+C:\Users\ramol\Desktop\OOP Vanilla Workshops\WS01\WS_01_Project\Debug\WS_01_Project.pdb
