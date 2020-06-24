@@ -1,0 +1,126 @@
+Script started on Sun 14 Jun 2020 11:19:20 PM EDT
+==171904== Memcheck, a memory error detector
+==171904== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==171904== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==171904== Command: ws
+==171904== 
+----------------------------------------
+|> T1: Checking Constants
+----------------------------------------
+MAX_NAME: 30
+MAX_DESC: 20
+MAX_WEIGHT: 777.555
+MIN_WEIGHT: 44.2222
+
+----------------------------------------
+|> T2: Valid Train
+----------------------------------------
+***Train Summary***
+    Name: Birthday Train
+      ID: 1
+No cargo on this train.
+
+***Train Summary***
+    Name: Birthday Train
+      ID: 1
+   Cargo: Boxes
+  Weight: 44.22
+
+----------------------------------------
+|> T3: Increase Weight
+----------------------------------------
+t1 cargo was correctly increased
+t1 cargo was correctly increased to 777.555
+t1 cargo was correctly not increased
+
+***Train Summary***
+    Name: Birthday Train
+      ID: 1
+   Cargo: Boxes
+  Weight: 777.55
+
+----------------------------------------
+|> T4: Decrease Weight
+----------------------------------------
+t2 doesn't have cargo was correctly not touched
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+No cargo on this train.
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Boxes
+  Weight: 44.22
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Flowers
+  Weight: 44.22
+
+t2's cargo correctly not decreased below 44.2222
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Flowers
+  Weight: 44.22
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Flowers
+  Weight: 94.22
+
+t2 decreased weight correctly
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Flowers
+  Weight: 84.22
+
+----------------------------------------
+|> T5: Swap cargo
+----------------------------------------
+***Train Summary***
+    Name: Birthday Train
+      ID: 1
+   Cargo: Flowers
+  Weight: 84.22
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+   Cargo: Boxes
+  Weight: 777.55
+
+----------------------------------------
+|> T6: Unload Cargo
+----------------------------------------
+***Train Summary***
+    Name: Birthday Train
+      ID: 1
+No cargo on this train.
+
+***Train Summary***
+    Name: Choo Choo Train
+      ID: 2
+No cargo on this train.
+
+correctly did not attempt to swap train without cargo
+
+==171904== 
+==171904== HEAP SUMMARY:
+==171904==     in use at exit: 0 bytes in 0 blocks
+==171904==   total heap usage: 3 allocs, 3 frees, 96 bytes allocated
+==171904== 
+==171904== All heap blocks were freed -- no leaks are possible
+==171904== 
+==171904== For lists of detected and suppressed errors, rerun with: -s
+==171904== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 14 Jun 2020 11:19:20 PM EDT
