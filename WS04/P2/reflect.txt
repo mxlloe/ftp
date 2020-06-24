@@ -1,0 +1,8 @@
+This workshop we learned how to create a constructor and deconstructor.
+Small tasks such as assigning values to the constructor functions, allocating dynamic memory, rellocate 
+dynamic memory, and initializing member variables.
+
+Constructors and be used to initialize values for certain variables and can take different parameters. 
+This will assign a first value to an object when it is created. 
+
+The deconstructor in fact, is a function of a class that is executed each time when an object is created.
