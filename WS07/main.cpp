@@ -4,6 +4,8 @@
 // Author: Cornel
 /////////////////////////////////////////////
 
+// Sean
+
 #include<iostream>
 #include "Truck.h"
 #include "Truck.h" // intentional
