@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build application",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "ms1_MenuTester.cpp",
+                "Menu.cpp",
+		"Utils.cpp",
+                "-o",
+                "ws",
+                "-std=c++17",
+                "-Wall"
+            ],
+            "presentation": {
+                "clear": true,
+                "panel": "shared"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
