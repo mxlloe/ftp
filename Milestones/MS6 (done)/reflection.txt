@@ -1,0 +1,16 @@
+// Sean Ramolete
+// 155074198
+
+The start of this project was straighforward but I still had a lot of trouble getting things to work together. 
+We were given a hefty amount of time to work on our milestones so I took my time with this one unlike tests...
+
+One of the most important concepts I think we had to learn was classes, constructors and deconstructors as this was all over the project.
+It helped me identify and fix any memory leak issues.
+
+The most confusing part of this project was the concepts of polymorphism and virtual functions.
+
+Overall, CPP has gotta be one of the most confusing languages to learn and I do not plan on using it in the future for what I want to do.
+Other than that, the first professor Nargis Khan did a poor job at teaching while the second professor Peter Liu did a much better job at explaining
+concepts and interacting with class.
+
+

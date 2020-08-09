@@ -1,6 +1,14 @@
-// Sean Ramolete
-// 155074198
-
+/* ------------------------------------------------------
+Final Project Milestone 2
+Module: Parking
+Filename: ms2_ParkingApp.cpp
+Version 1.0
+Author	Fardad Soleimanloo
+Revision History
+-----------------------------------------------------------
+Date      Reason
+2020/7/04  Preliminary release
+-----------------------------------------------------------*/
 #include "Parking.h"
 #include <iostream>
 using namespace sdds;

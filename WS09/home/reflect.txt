@@ -1,0 +1,6 @@
+// Sean Ramolete
+// 155074198
+
+templates are a concept in cpp where you can pass a function to perform operations. 
+you can use this when you have many objects but different types (int, double, etc). 
+templates are not limited to only functions but the same principle can be used to classes so that you can have data members in the class with a specific type that you pass in. 

@@ -1,0 +1,8 @@
+These students have invalid student ids:
+2345 Lisa Simpson
+4567 Ralph Wiggum
+All employee have valid employee ids
+These integer values are invalid:
+2
+These character values are invalid:
+A

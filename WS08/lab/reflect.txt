@@ -1,0 +1,6 @@
+In this workshop I learned about virtual functions and polymorphism.
+
+It is necessary to add a virtual empty body destructor because it prevents memory leak issues. The deconstructor
+must be virtual if it is not it will not work. 
+
+The overloading also works because of polymorphism.

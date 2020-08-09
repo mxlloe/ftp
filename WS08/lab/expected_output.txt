@@ -1,0 +1,47 @@
+----------------------------------------
+|> T1: Checking display()
+----------------------------------------
+Doctor
+          Type: Family doctor
+      Pay Rate: 90
+     Min Hours: 30
+Doctor
+          Type: Internal medicine
+      Pay Rate: 150
+     Min Hours: 25
+Doctor
+          Type: Neuro-surgeon (specialist)
+      Pay Rate: 325
+     Min Hours: 12
+Engineer
+             Level: 12
+          Pay Rate: 75
+         Min Hours: 30
+Engineer
+             Level: 25
+          Pay Rate: 60
+         Min Hours: 30
+
+----------------------------------------
+|> T2: Doctor's weekly income
+----------------------------------------
+Employee 1
+  Under-time: 900
+   Over-time: 4050
+Employee 2
+  Under-time: 1500
+   Over-time: 7125
+Employee 3
+  Under-time: 5250
+   Over-time: 19550
+
+----------------------------------------
+|> T2: Engineer's weekly income
+----------------------------------------
+Employee 4
+     Under-time: 984
+  Overtime-time: 3480
+Employee 5
+     Under-time: 1280
+  Overtime-time: 3400
+

@@ -1,5 +1,11 @@
-// Sean Ramolete
-// 155074198
+/*************************************************/
+/*  Student:    Yathavan Parameshwaran           */
+/*  Student #:  070 692 140                      */
+/*  Assignment: Final Project: MS2: Parking.h    */
+/*  Course:     OOP244 (retake)                  */
+/*  Professor:  Andrei Sajeniouk                 */
+/*  Date:       July 17, 2020                    */
+/*************************************************/
 
 #ifndef SDDS_PARKING_H
 #define SDDS_PARKING_H
